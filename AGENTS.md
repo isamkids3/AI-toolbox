@@ -13,9 +13,9 @@ These rules apply to any project, language or framework. Respond in English. Be 
    and report the real output.
 5. **Record.** Tick the item in `TODO.md` only after its tests pass. Suggest a short commit
    message (`feat: …`, `fix: …`, `test: …`, `docs: …`).
-6. **Version control.** If the project isn't a git repo, run `git init` and add a `.gitignore` for the
-   language (dependencies, build output, local databases, caches, `.toolbox/`) before the first
-   commit. Commit after each TODO item.
+6. **Version control.** The human manages git. Never run git commands that change state (init, add,
+   commit, reset, checkout, push). During the skeleton step, create a `.gitignore` for the language
+   (dependencies, build output, local databases, caches, `.toolbox/`).
 7. **Checkpoint.** After finishing each TODO item (tests passing, item ticked), stop and give
    a 2-line summary before starting the next one.
 
