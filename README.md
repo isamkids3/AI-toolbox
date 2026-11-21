@@ -7,7 +7,7 @@ Claude Code, Copilot, Gemini…) work in a disciplined way on any project:
 ## Use it
 From the root of your project (new or existing):
 ```bash
-git clone https://github.com/isamkids3/ai-assessment-toolbox .toolbox
+git clone https://github.com/isamkids3/AI-toolbox .toolbox
 cp .toolbox/AGENTS.md AGENTS.md
 cp -n .toolbox/AGENTS.md agents.md 2>/dev/null   # some agents read lowercase; skipped on macOS
 cp .toolbox/AGENTS.md CLAUDE.md                   # Claude Code reads CLAUDE.md
