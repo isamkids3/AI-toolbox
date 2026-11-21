@@ -47,10 +47,26 @@ bugs, security issues, missing validation, missing tests, logic in the wrong lay
 unpinned dependencies, hardcoded secrets.
 ```
 
+## Fix review findings
+```
+Fix the review findings, highest severity first, one at a time.
+For each: add or update a test that reproduces the issue (it should fail first), fix the code,
+and run the full test suite. Don't change behaviour beyond what the finding needs.
+Skip anything that would take more than ~10 minutes; list it under "Not done / known limitations"
+in TODO.md instead. Finish with a short list: fixed / skipped and why.
+```
+
 ## Docs
 ```
 Feature freeze. Write README.md using only what exists and passes tests; mark anything
 unfinished as partial/not done. Run the full test suite and fill TEST_REPORT.md from the real output.
+```
+
+## Docs consistency check
+```
+Check that PLAN.md, TODO.md, README.md and TEST_REPORT.md agree with the code and with each other.
+List every mismatch (libraries, endpoints, features, status, test counts, security or performance claims),
+and any claim the code or tests don't actually back up. Then fix the docs to match the code.
 ```
 
 ## Final check
